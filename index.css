@@ -1,0 +1,37 @@
+/* Style the portfolio container */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap between projects */
+}
+
+/* Style individual project items */
+.project {
+    flex-basis: calc(33.33% - 20px); /* Adjust the width of each project item */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.project a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+
+.project img {
+    max-width: 10px;
+    height: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
